@@ -40,7 +40,9 @@ const GeolocationByIpAddress = () => {
     
     <p><strong>IP Address:</strong> {location.ip}</p>
     <p><strong>Country:</strong> {location.country_name} ({location.country})</p>
-    <p><strong>City:</strong> {location.city}</p>
+    <p><strong>City:</strong> {location.city} ({location.region_code})</p>
+    <p><strong>Latitude:</strong> {location.latitude}</p>
+    <p><strong>Longitude:</strong> {location.longitude}</p>
     <p><strong>Organization:</strong> {location.org}</p>
   </div>
 )}
